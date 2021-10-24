@@ -23,9 +23,9 @@ pipeline {
         //}
 
     }
-    post {
-        always {
-            mail bcc: '', body: 'Jenkins System 123', cc: '', from: '', replyTo: '', subject: 'Jenkins System 123 Bạn Siêu Víp', to: 'hoanbc@outlook.com'
-        }
-    }
+  //  post {
+       // always {
+           // mail bcc: '', body: 'Jenkins System 123', cc: '', from: '', replyTo: '', subject: 'Jenkins System 123 Bạn Siêu Víp', to: 'hoanbc@outlook.com'
+        //}
+    //}
 }
